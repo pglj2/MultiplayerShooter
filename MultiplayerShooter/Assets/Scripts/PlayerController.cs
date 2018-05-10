@@ -228,8 +228,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void GetInput(out float speed)
         {
             // Read input
-            float horizontal = CrossPlatformInputManager.GetAxis("Vertical");
-            float vertical = CrossPlatformInputManager.GetAxis("Horizontal");
+            float horizontal = CrossPlatformInputManager.GetAxis("DireitaEsquerda");
+            float vertical = CrossPlatformInputManager.GetAxis("CimaBaixo");
 
             bool waswalking = m_IsWalking;
 
